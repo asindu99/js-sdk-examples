@@ -114,7 +114,7 @@ function createKYCAgeCredentialRequest(
   }
 }
 
-async function identityCreation() {
+export async function identityCreation() {
   console.log('=============== key creation ===============');
 
   const { identityWallet } = await initInMemoryDataStorageAndWallets(defaultNetworkConnection);
